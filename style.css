@@ -1,0 +1,115 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body{
+  background-color: lightblue;
+  animation: fadeInAnimation ease 3s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  
+}
+
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+
+.link:hover { color: #FF0000; }
+
+
+
+h1{
+  text-align: center;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 60px;
+  background-color: #d1a7fb;
+  color: white;
+  border: solid 5px white;
+  
+}
+
+.flex{
+  display: flex;
+  justify-content: center;
+  justify-content: space-evenly;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  
+}
+
+nav{
+  background-color: #d1a7fb;
+  color: white;
+  border: solid 5px white;
+  font-size: 20px;
+  
+}
+
+a{
+  color: white;
+  text-decoration: none;
+  margin: 5px;
+}
+
+.flextwo{
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 50px;
+  border: solid 10px white;
+  margin-top: 50px;
+  width: 500px;
+  height: 500px;
+  margin-left: 450px;
+  padding-top: 150px;
+  color: white;
+}
+
+.aboutus{
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  justify-content: space-evenly;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 50px;
+  color: white;
+  margin-top: 50px;
+}
+
+img{
+  width: 500px;
+  height: 500px;
+  border: solid 10px white;
+}
+
+.products{
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.white{
+  font-size: 50px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color: white;
+  text-align: center;
+}
+
+a{
+  color: white;
+  text-decoration: none;
+  text-align: center;
+}
+
+small{
+  color: white;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
